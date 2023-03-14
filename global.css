@@ -3,16 +3,20 @@
 }
 
 :root {
-    background-color: rgb(199, 200, 168);
+    background-color: rgb(255, 207, 77);
     --primary-color: blue; 
 }
 
 body {
-    background-color: rgb(199, 200, 168);
+    background-color: rgb(255, 207, 77);
     margin: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 300;
     }
+
+main {
+    margin: 0; 
+}
 
 header {
     font-size: 30px; 
@@ -24,25 +28,38 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-style: italic;
+    background-color:rgb(228, 169, 68);
 }
 
-div {
-    background-color: rgb(217, 222, 220);
-    min-height: 100px;
-    border: 2px solid rgb(0, 0, 0);
-    margin-bottom: 20px;
-    margin-top: 15px;
-
+.container1 {
+    background-color: rgb(49, 90, 87)
 }
 
-footer {
-        padding: 10px;
+.container2 {
+    background-color: blue;
+}
+
+.answer-button {
+    width: 300px;
+    font-family: cursive;
+    cursor: pointer;
+    height: 60px;
+}
+
+.footer {
+        padding: 50px;
         border-top: 4px solid black;
-        height: 20px;
         margin-top: 180px;
+        height: 310px;
         padding-bottom: 5px;
+        align-items: center;
+        background-color: rgb(228, 169, 68);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         }
-
+    
 img {
     max-width: 100%;
     width: 45px;
@@ -52,6 +69,5 @@ img {
 nav {
     display: flex;
     justify-content: space-around;
-    align-items: flex-end;
     border: 5px;
 }
