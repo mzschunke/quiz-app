@@ -3,6 +3,51 @@
 }
 
 :root {
-    background-color: red;
+    background-color: rgb(199, 200, 168);
     --primary-color: blue; 
+}
+
+body {
+    background-color: rgb(199, 200, 168);
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+header {
+    font-size: 30px; 
+    min-height: 100px;
+    height: 140px;
+    margin-top: 0;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    background-color: rgb(217, 222, 220);
+    min-height: 100px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 20px;
+
+}
+
+footer {
+        padding: 10px;
+        border-top: 2px solid black;
+        height: 20px;
+        margin-top: 180px;
+        padding-bottom: 5px;
+        }
+
+img {
+    max-width: 100%;
+    width: 45px;
+    cursor: pointer;
+    }
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
 }
