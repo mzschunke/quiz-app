@@ -11,6 +11,7 @@ body {
     background-color: rgb(199, 200, 168);
     margin: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
     }
 
 header {
@@ -19,9 +20,10 @@ header {
     height: 140px;
     margin-top: 0;
     padding: 10px;
-    border-bottom: 2px solid black;
+    border-bottom: 4px solid black;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 div {
@@ -29,12 +31,13 @@ div {
     min-height: 100px;
     border: 2px solid rgb(0, 0, 0);
     margin-bottom: 20px;
+    margin-top: 15px;
 
 }
 
 footer {
         padding: 10px;
-        border-top: 2px solid black;
+        border-top: 4px solid black;
         height: 20px;
         margin-top: 180px;
         padding-bottom: 5px;
@@ -50,4 +53,5 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
+    border: 5px;
 }
