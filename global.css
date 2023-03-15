@@ -139,6 +139,11 @@ footer {
     height: 60px;
 }
 
+.current-tab {
+    background-color: rgb(224, 147, 14);
+    border: 4px dotted white;
+}
+
 
 
 
