@@ -34,10 +34,24 @@ header {
 
 .container1 {
     background-color: rgb(49, 90, 87);
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    border-radius: 2px;
+    margin: 25px 25px 25px 25px;
+    box-shadow: 4px 4px 10px;
 }
 
 .container2 {
     background-color: rgb(49, 90, 87);
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    margin: 25px 25px 25px 25px;
 }
 
 .answer-button {
@@ -47,10 +61,17 @@ header {
     height: 60px;
 }
 
-    
+.hash-buttons {
+    display: flex;
+    gap: 20px;
+    padding-right: 550px;
+    padding-top: 100px;
+}
+
 p {
     color: white;
     text-align: center;
+    font-weight: 300;
 }
 
 img {
