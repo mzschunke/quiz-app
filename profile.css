@@ -1,0 +1,27 @@
+section {
+    min-height: 200px;
+}
+
+.name-container {
+    border: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-style: dashed;
+}
+
+.name {
+    font-size: 45px;
+    font-style: italic;
+    font-family: serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+
+
