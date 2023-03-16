@@ -110,8 +110,9 @@ header {
 }
 
 article {
-    color: white;
+    color: black;
     text-align: center;
+    font-weight: 700;
 }
 
 .questions {
