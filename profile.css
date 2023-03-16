@@ -23,5 +23,13 @@ section {
     color: rgb(0, 0, 0);
 }
 
+.about-me {
+    border: transparent; 
+    font-family: serif;
+    background-color: rgb(255, 255, 255, 0.1);
+    padding: 10px;
+}
 
-
+h3 {
+    font-size: 36px;
+}
