@@ -30,6 +30,7 @@ header {
     align-items: center;
     font-style: italic;
     background-color:rgb(228, 169, 68);
+    text-decoration: underline rgb(49, 90, 87);
 }
 
 .container1 {
@@ -45,8 +46,8 @@ header {
     min-height: 300px;
     margin-left: 100px;
     margin-right: 100px;
-    border: 2px solid black;
 }
+
 
 .container2 {
     background-color: rgb(49, 90, 87);
