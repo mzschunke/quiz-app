@@ -46,6 +46,7 @@ header {
     min-height: 300px;
     margin-left: 100px;
     margin-right: 100px;
+    border: 2px inset black;
 }
 
 
@@ -61,7 +62,7 @@ header {
     margin-left: 100px;
     margin-right: 100px;
     min-height: 300px;
-    border: 2px solid black;
+    border: 2px inset black;
 }
 
 .answer-button {
@@ -155,6 +156,15 @@ footer {
 }
 
 
+/* Extra Stylings - activated by JS (to show answers) */ 
+
+.answer1 {
+    font-size: 50px;
+    font-weight: 900;
+    background-color: rgb(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 5px;
+}
 
 
 
