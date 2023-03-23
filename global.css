@@ -147,7 +147,17 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 60px;
+    height: 90px;
+}
+
+a:hover {
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 13%;
+    padding: 1%;
+}
+
+.img:hover {
+    width: 75px;
 }
 
 .current-tab {
