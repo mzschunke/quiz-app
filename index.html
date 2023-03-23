@@ -13,20 +13,30 @@
     </header>
     <main>
     <section class="container1" data-js="quizcard">
-        <article><p class="questions">What property flips the axes in flexbox?</p></article>
-        <button  class="answer-button" data-js="answerbutton">Show Answer</button>
+        <article><p class="questions">1.) What property flips the axes in flexbox?</p></article>
+        <button class="answer-button" data-js="answerbutton">Show Answer</button>
+        <button class="answer-button hidden" data-js="hidebutton">Hide Answer</button>
+        <p class="answer1 hidden" data-js="answer1">"flex-box"</p>
         <!-- Dem button das "hidden Attribut gegeben. Diesen <p> nur hier eingefügt zum kopieren ins JS: <p class="answer1">flex-box</p> -->
         <ul class="hash-buttons">
             <li><button class="tags">#html</button></li>
             <li><button class="tags">#flexbox</button></li>
             <li><button class="tags">#css</button></li>
         </ul>
-
-    <button class="bookmark-button"><img src="img/bookmark-svgrepo-com.svg" alt="bookmark this" class="quiz-bookmark"></button>
+        <button class="bookmark-button"><img src="img/bookmark-svgrepo-com.svg" alt="bookmark this" class="quiz-bookmark"></button>
     </section>
 
-    <section class="container2">
-        <article><p class="questions">Lorem Ipsum dolor sit?</p></article>
+       <!---  Zweiten identischen Container eingefügt für toggle Answer:  
+    <section class="answer1" name="answer1" data-js="answer1">
+        <article><p class="questions">"flex box"</p></article>
+        <p class="answer1">"flex-box"</p>   
+        <button  class="hide-button" data-js="hidebutton">Hide Answer</button>
+    </section>
+    -->
+
+    <!--- -------  -->
+    <section class="container2" data-js="quizcard2">
+        <article><p class="questions">What's your name?</p></article>
         <button class="answer-button">Show Answer</button>
         <button class="bookmark-button"><img src="img/bookmark.png" alt="bookmark this" class="quiz-bookmark"></button>
     </section>
