@@ -12,7 +12,21 @@
     </header>
     <main>
      <h2>Formular:</h2>
-     <form action="">Your Question:</form>   
+     <form action="" data-js="form">
+        <fieldset class="fieldset">
+            <legend>Add a new card:</legend>
+            <label for="question">Your question:</label>
+            <textarea name="question" id="question" cols="30" rows="5"></textarea>
+            <br>
+            <label for="answer">Your answer:</label>
+            <textarea name="answer" id="answer" cols="30" rows="5"></textarea>
+            <br>
+            <label for="tag">Your answer:</label>
+            <textarea name="tag" id="tag" cols="20" rows="1"></textarea>
+            <br>
+            <button type="submit">Submit</button>
+          </fieldset>
+     </form>   
     </main>
     <footer>
             <nav class="navbar">

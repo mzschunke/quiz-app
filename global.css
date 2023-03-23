@@ -46,7 +46,7 @@ header {
     min-height: 300px;
     margin-left: 30%;
     margin-right: 30%;
-    border: 2px inset black;
+    border: 2px solid black;
 }
 
 
@@ -62,7 +62,7 @@ header {
     margin-left: 30%;
     margin-right: 30%;
     min-height: 300px;
-    border: 2px inset black;
+    border: 2px solid black;
 }
 
 .answer-button {
@@ -127,7 +127,7 @@ article {
 }
 
 .img {
-        width: 42px;
+        width: 50px;
         cursor: pointer;
 }   
 
@@ -163,6 +163,7 @@ a:hover {
 .current-tab {
     background-color: rgb(224, 147, 14);
     border: 4px dotted white;
+    border-radius: 5%;
 }
 
 
