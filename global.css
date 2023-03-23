@@ -51,7 +51,7 @@ header {
 
 
 .container2 {
-    background-color: rgb(90, 49, 69);
+    background-color: rgb(49, 90, 87);
     display: flex;
     position: relative;
     flex-direction: column;
@@ -127,7 +127,7 @@ article {
 }
 
 .img {
-        width: 52px;
+        width: 42px;
         cursor: pointer;
 }   
 
