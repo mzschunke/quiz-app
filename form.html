@@ -6,27 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="form.js" defer></script>
 </head>
 <body>
     <header><h1>Quiz App</h1>
     </header>
     <main>
      <form action="" data-js="form">
-        <fieldset> 
+        <fieldset data-js="field"> 
             <legend>Add a new card:</legend>
             <div class="form-container">
             <label for="question">Your question:</label>
-            <textarea name="question" id="question" cols="20" rows="5"></textarea>
-            <br>
+            <textarea name="question" id="question" cols="20" rows="5" maxlength="300" data-js="yourquestion"></textarea>
             <label for="answer">Your answer:</label>
-            <textarea name="answer" id="answer" cols="20" rows="5"></textarea>
-            <br>
+            <textarea name="answer" id="answer" cols="20" rows="5" maxlength="300" data-js="youranswer"></textarea>
             <label for="tag">Your tag:</label>
-            <input type="text" name="tag" id="tag">
-            <br>
-            <button type="submit">Submit</button>
+            <input type="text" name="tag" id="tag" maxlength="10" data-js="yourtag">
+            <button type="submit" data-js="submitbutton">Submit</button><ul data-js="list"></ul>
         </div>
-          </fieldset>
+        </fieldset>
      </form>   
     </main>
     <footer>
@@ -39,6 +37,8 @@
     </footer>
 </body>
 </html>
+
+
 
 
 

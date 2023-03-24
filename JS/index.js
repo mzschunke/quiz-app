@@ -4,10 +4,7 @@ const quizCard2 = document.querySelector('[data-js="quizcard2"]');
 const answerButton = document.querySelector('[data-js="answerbutton"]');
 const hideButton = document.querySelector('[data-js="hidebutton"]');
 
-/*  ---- 1. Versuch vom 20.03.23:
-button.addEventListener("click", () => {
-    quizcard.classList.add("container1-answer");
-}); */
+
 
 // ----- 2. Versuch funktioniert über: quizCard.innerHTML ="";
 /*
@@ -50,27 +47,37 @@ hideButton.addEventListener("click", () => {
     answer1.classList.add("hidden");
 });
 
+/* Formular:
+const submitButton = document.querySelector('[data-js="submitbutton"]');
+const yourQuestion = document.querySelector('[data-js="yourquestion"]');
+const yourAnswer = document.querySelector('[data-js="youranswer"]');
+const yourTag = document.querySelector('[data-js="yourtag"]');
+const yourForm = document.querySelector('[data-js="form"]');
+const yourField = document.querySelector('[data-js="field"]');
+const yourList = document.querySelector('[data-js="list"]');
+
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
+  const newCard = document.createElement("li");
+  newCard.classList.add("container1");
+  newCard.innerHTML = `I am a new question.`;
+  yourList.append(newCard);
+  form.reset(); 
+  yourQuestion.focus();
+});
 
 
-/* -----Versuch über display: none:
-
-answerButton.addEventListener("click", () => {
-function myToggle() {
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }    
-})
 
 
 
+/* const newCard = document.createElement(""); 
+newToast.classList.add
+newToast.innerHTML = "I am a toast message.";
+toastContainer.append(newToast);
+}); */ 
 
-  // nötig?--> var x = document.getElementById("myDIV");
 
 
-*/
 
 
 
